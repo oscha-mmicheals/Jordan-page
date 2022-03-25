@@ -1,0 +1,114 @@
+body{
+    color: rgb(218, 16, 16);
+    background-color:rgb(69, 69, 238) ;
+}
+
+nav{
+    background-color: rgba(30, 27, 222,1);
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    gap: 1.9rem;
+    box-shadow: none;
+    padding-top: 2em;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.Jordan{
+    color: rgb(200, 17, 17);
+    }
+.idol{
+    color: rgba(8, 5, 237, 1);
+
+    }
+    
+.list{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin-right: 20px;
+}
+.vote{
+    
+    margin-left: 5em;
+    margin-right: 20em;
+    margin-bottom: 2em;
+    border:5px solid rgb(224, 27, 152);
+    background: rgba(222, 51, 145, 1);
+    border-radius: 10px / 10px;
+    width: 8rem;
+    padding: 2px;
+}
+.vote-link:hover{
+    color: rgb(211, 224, 19);
+    padding: 5px;
+}
+
+.container{
+    margin-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: cover;
+    height: 100;
+    border: 2px solid rgb(26, 13, 209);
+    background: rgb(28, 40, 209);
+
+}
+
+.p-snippet{
+    font-weight: bold;
+    color: rgba(238, 223, 14, 1);
+    padding-left: 2rem;
+
+}
+.snippet{
+    max-width: cover;
+    border-top: 30px groove rgb(17, 28, 182);
+    border-left: 15px solid rgb(16, 19, 187);
+    border-right:  15px solid rgb(16, 19, 187) ;
+    border-bottom: 30px groove rgb(17, 28, 182);
+    
+
+}
+
+.main{
+   background: rgb(29, 8, 216) ;
+   height: 200px;
+    
+
+}
+.p{
+      display: flex; 
+    align-content: center;
+    height: 100px;
+    color: rgba(227, 51, 39, 1);
+    border:  none ;
+    border-radius: 50px / 20px;
+    padding-top: 50px;
+    padding-left: 400px;
+}  
+
+  .how{
+      display: inline-block;
+      margin-left: 38rem;
+      padding: 10px 3px;
+      border-radius: 7px;
+      background: linear-gradient(to right, rgba(238, 13, 170, 1),rgb(192, 68, 176), rgba(191, 49, 201, 0.623));
+      font-weight: 800;
+
+    }
+    
+    .how:hover{
+        color: blue;
+        font-weight: bolder;
+        background: linear-gradient(to right, rgb(209, 235, 18), rgba(225, 236, 13, 0.788));
+        padding: 15px 5px;
+        border-radius: 10px;
+        }
+       
+    
